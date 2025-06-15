@@ -28,7 +28,8 @@ This project is a React application built with Vite. It provides a minimal setup
 
 ## Screenshot
 
-![Project Screenshot](path/to/your/screenshot.png)
+![Project Screenshot](screenshots/home.png
+)
 
 *Add your screenshot here*
 
