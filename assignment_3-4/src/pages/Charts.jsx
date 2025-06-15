@@ -14,6 +14,7 @@ import {
   Legend,
 } from 'chart.js';
 import { useSelector } from 'react-redux';
+import Layout from '../components/Layout';
 
 // Register ChartJS components
 ChartJS.register(
@@ -176,14 +177,16 @@ const Charts = () => {
   };
 
   return (
-    <div className={`p-4 transition-all duration-300 ${isOpen ? 'ml-64' : 'ml-0'}`}>
-      <h1 className="text-2xl font-bold mb-4">Charts</h1>
-      <div className="bg-white p-4 rounded-lg shadow">
-        <div style={{ height: '300px' }}>
-          {renderChart()}
+    <Layout>
+      <div className="p-4">
+        <h1 className="text-2xl font-bold mb-4">Charts</h1>
+        <div className="bg-white p-4 rounded-lg shadow">
+          <div style={{ height: '300px' }}>
+            {renderChart()}
+          </div>
         </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 
