@@ -30,7 +30,7 @@ This project is a React application built with Vite. It provides a minimal setup
 
 ![Project Screenshot](screenshots/home.png
 )
-![Project Screenshot](screenshots/Kanban.png
+![Project Screenshot](screenshots/kanban.png
 )
 
 
